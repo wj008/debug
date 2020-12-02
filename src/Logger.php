@@ -13,8 +13,8 @@ if (!defined('DEBUG_LOG')) {
  */
 class Logger
 {
-    private static $log_udp_ip = '127.0.0.1';
-    private static $log_udp_port = 1024;
+    public static $log_udp_ip = '127.0.0.1';
+    public static $log_udp_port = 1024;
 
     /**
      * UDP发送
